@@ -1,13 +1,21 @@
-head{
-    background-color:#00FF00;
+*{
+    margin:5;
+    padding:5;
 }
 body{
     color:#55555F;
-    background-color:#0040FF;
+    background-color: paleturquoise;;
 
 }
 
 .box1{
-    background-color:#FE642E;
-    
+    background-color: yellow;
+    letter-spacing: 0.1em;
+    font-style:initial;
+}
+.box2{
+    background-color: lawngreen;
+    border:5px dotted blueviolet;
+    color: coral;
+    border-radius: 5px;
 }
