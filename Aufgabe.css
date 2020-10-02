@@ -19,3 +19,16 @@ body{
     color: coral;
     border-radius: 5px;
 }
+.box3{
+    padding-bottom:8px;
+    border-bottom:dotted 2px #55555F;
+}
+.box4 li{
+    background-color: white;
+    list-style:none;
+    list-style-image:url('Bild1.jpg');
+}
+.hahaBild li{
+    list-style:none;
+    list-style-image:url('Patrick.Lachen.jpg');
+}
