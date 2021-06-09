@@ -1,0 +1,20 @@
+-- create a table
+CREATE TABLE students (
+  id INTEGER PRIMARY KEY,
+  lastname TEXT NOT NULL,
+  firstname TEXT NOT NULL,
+  gender TEXT NOT NULL,
+  birthdate TEXT NOT NULL
+);
+-- insert some values
+INSERT INTO students VALUES (1, 'Moeller', 'Phillip', 'M', '17.03');
+INSERT INTO students VALUES (2, 'Plesse', 'Nico', 'M', '19.03');
+INSERT INTO students VALUES (3, 'Fuellner', 'Nilas', 'M', '20.03');
+INSERT INTO students VALUES (4, 'Benli', 'Nilay', 'F', '03.04');
+INSERT INTO students VALUES (5, 'Kuhn', 'Daniel', 'M', '01.05');
+INSERT INTO students VALUES (6, 'Papke', 'Silvan', 'M', '23.07');
+INSERT INTO students VALUES (7, 'Vinke', 'Dennis', 'M', '07.03');
+
+
+-- Queryselection
+SELECT * FROM students WHERE gender = 'F';
